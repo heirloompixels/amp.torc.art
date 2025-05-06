@@ -44,6 +44,9 @@ we've thought long and hard about just what a book is through the process of sta
 
 - page numbers
 - entropy
+
+books exist to be touched and therefore they experience decay thoughout their life - but this decay is better to be though of as
+
 - portability
 
 
