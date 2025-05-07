@@ -9,6 +9,8 @@ A small press located in a desert oasis. Hyper local focused publishing of the s
 
 Agile Meteor Press is a project of Truth or Consequences Contemporary. Our press is focused on sustainable publishing of the rural stories of our small community. Our publishing model is community directed - we aim to use each title to fund the next title we publish. We are focused on the local and on a decisively human scale to bring titles into the world which celebrate the community we thrive in. 
 
+<img style="display: block; margin:auto;" src="/box_prints.jpg"/>
+
 Each edition is concieved as the founding of the next edition. The presales and intital release of the book is designed to recoup the production cost so it may be rolled forward into the next title. 
 
 We publish one book per season based on invitations or submissions. Almost all our books are tangentally related to the physical location of Truth or Consequences, NM - but we take a broad view on just what that means and don't follow any hard or fast rules. 

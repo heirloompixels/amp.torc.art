@@ -33,5 +33,7 @@ th { font-family: 'nnixbold'; font-weight: normal; background-color: var(--secon
 .timeline-item { position: relative; margin: 30px 30px; padding-left: 30px; }
 .date { font-family: 'nnixmedium'; margin-bottom: 5px; color: inherit; position: absolute; top: 0px; left: 10px; text-align: right; }
 .event { padding: 20px; margin-left: 30px; margin-top: 0px; }
-p {   width: clamp(70%, 80%, 300px); }
+p {margin: 1em auto;   width: clamp(70%, 80%, 300px); }
+h1,h2,h3,li {text-align: center;}
+
 
