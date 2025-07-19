@@ -1,13 +1,14 @@
 +++
 +++
 
-<img style="display: block; margin:auto;" src="/logo.png"/>
 
-# Agile Meteor Press 
+
 
 A small press located in a desert oasis. Hyper local focused publishing of the stories of this time and place. 
 
 Agile Meteor Press is a project of Truth or Consequences Contemporary. Our press is focused on sustainable publishing of the rural stories of our small community. Our publishing model is community directed - we aim to use each title to fund the next title we publish. We are focused on the local and on a decisively human scale to bring titles into the world which celebrate the community we thrive in. 
+
+We craft small beutiful books of uniqure stories for nomads on planet earth. 
 
 <img style="display: block; margin:auto;" src="/box_prints.jpg"/>
 

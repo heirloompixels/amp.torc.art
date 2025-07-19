@@ -5,16 +5,25 @@
 </head>
 <body>
       <main>
+<img width="500px" style="display: block; margin:auto;" src="/logo-meteor-torc.svg"/>
+	<p style="margin-bottom:64px;text-align: center;">
+          <a href="/">home</a> |
+	  <a href="/editions">editions</a> |
+          <a href="https://">submissions</a>
+	</p> 
+
           {% block content %}
           {% endblock content %}
+
+
           <p style="margin-top:64px;">
           <a href="/">home</a> |
           <a href="https://">submissions</a> |
-          <a rel="me" href="https://instagram.com/meteoric.torc">instagram</a>
+          <a rel="me" href="https://instagram.com/torc.art">instagram</a> 
+	<br/>
           </p>
           <p>
-          <a href="https://webring.xxiivv.com/#xxiivv" target="_blank" rel="noopener noreferrer">
-          torc</a>
+	  A project of <a href="https://torc.art">Truth or Consequences Contemporary</a>
           </p>
           <div class="subtle-mono">
             built<br /> epoch<br /> {{ config.extra.epoch }}
