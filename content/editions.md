@@ -51,24 +51,25 @@ A collection of erotic male drawings undertaken in the fall of 2012 by artist Ol
 
 ## A.M.P #6 | Mud Mountain
 
+A portrait of the mountain which looms on the western horizon of Truth or Consequences, New Mexico. 
+
 ## A.M.P #7 | Working Title: Evidence of Existence. 
 
-Handbound codex of terra and flora prints from the american rockies. The earth stains us with it's memory. Ancient events long encoded in the typography of statified layers of events geolocial. Fascinatiing permutations of seed shapes and beek forms to suit a particular angle of the sun, an exact elevation and a quantity of percipitation. 
-
- 
+Handbound codex of terra and flora prints from the american rockies. The earth stains us with it's memory. Ancient events long encoded in the typography of statified layers of events geolocial. Fascinating permutations of seed shapes and beek forms to suit a particular angle of the sun, an exact elevation and a quantity of percipitation. 
 
 Arches text wove, handbound by Kyle Parker Cunningham. 
 682 Pages
-Block Printing, Eco Printing, RUbbings, Drawings, Notes. 
+Block Printing, Eco Printing, Rubbings, Drawings, Notes. 
+
 Created in the summer of 2025
+Handbound original edition of 1
+Softcover printed edition of 100
 
 ## A.M.P #8 | symbology & characterization
 
 <p> <a href="/symbology-and-characterization">Learn more about Symbolody & Characterization</a> </p>
 
 <a target="_blank" href="https://shop.torc.art/collections/agile-meteor-press">Order Symbology & Characterization</a>
-
-
 
 
 Permutations of the printed form, reduced and reused plates each one unique and yet floating through the world with siblings. You find solace in the quantity and variation of reality. Where will this take us? Where will we end up? 
