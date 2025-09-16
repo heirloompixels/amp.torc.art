@@ -8,9 +8,9 @@ A small press located in a desert oasis. Hyper local focused publishing of the s
 
 Agile Meteor Press is a project of Truth or Consequences Contemporary. Our press is focused on sustainable publishing of the rural stories of our small community. Our publishing model is community directed - we aim to use each title to fund the next title we publish. We are focused on the local and on a decisively human scale to bring titles into the world which celebrate the community we thrive in. 
 
-We craft small beutiful books of uniqure stories for nomads on planet earth. 
+We craft small beutiful books of unique stories for nomads on planet earth. 
 
-<img style="display: block; margin:auto;" src="/box_prints.jpg"/>
+<img style="display: block; margin:auto;" src="/img/hardbound-prototype-books-on-pedestals-1500px.jpeg"/>
 
 Each edition is concieved as the founding of the next edition. The presales and intital release of the book is designed to recoup the production cost so it may be rolled forward into the next title. 
 
@@ -23,10 +23,10 @@ Our personal experiences and emotions define the fabric of a place and we are de
 
 ## Fall 2025 Releases 
 
-- TorC no. 75
-- Hireath
-- Women of Consequences  
-- Symbology & Characterizations
+- [TorC no.75](/torc-no75)  (November 1st, 2025)
+- [a.m.p. no. 3](/hiraeth): Hiraeth (October 2025)
+- [a.m.p. no. 4](women-of-consequences): Women of Consequences
+- [a.m.p. no. 8](/symbology-and-characterizations) | Symbology & Characterizations
 
 
 

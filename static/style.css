@@ -32,13 +32,14 @@ a:link, a:visited { color: inherit; font-family: 'courier'; text-decoration: und
 a:link, a:visited { color: inherit; font-family: 'Inter'; font-weight: 300; text-decoration: underline; }
 a:hover, a:focus { text-decoration: none; color:#00008B; }
 
-img { border-radius: var(--border-radius); max-width: 100%; height: auto; }
+img { max-width: 100%; height: auto; }
+img.radius { border-radius: var(--border-radius); max-width: 100%; height: auto; }
 .smallfeature { border-radius: var(--border-radius); display: block; margin: 1rem auto; width: clamp(50%, 80%, 300px); }
 .smallsplash { border-radius: var(--border-radius); display: block; margin: 1rem 0; width: clamp(50%, 80%, 300px); }
 figure { margin: 0 0 1em; }
 
 ul { margin-left: 1em; padding: 0; list-style: none; }
-ul li::before { content: "+"; padding-right: 4px; }
+ul.plus li::before { content: "+"; padding-right: 4px; }
 ul.ing li::before { content: none; padding-right: 0; }
 li ul { margin-left: 2em; }
 table { border-collapse: collapse; }
