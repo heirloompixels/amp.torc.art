@@ -21,14 +21,14 @@ Agile Meteor Press crafts small editions of work using a dichotomoy of processes
 Our personal experiences and emotions define the fabric of a place and we are dedicated to bringing these stories out into the world. We believe in a new resurgance of the hyper local and have created this projec to explore the possiblities of sharing our experience out into the world. 
 
 
-## Upcoming Titles
+## Fall 2025 Releases 
 
-- Hireath by Olivia
-- Hironymous Bogs
-- Olin West
+- TorC no. 75
+- Hireath
+- Women of Consequences  
+- Symbology & Characterizations
 
 
-## Pre-release Orders 
 
 Pre-release orders helps us determine how many books to print and bring these projects to life. All our orders are handled through the mothership of Truth or Consequences Contemporary - you can order online here. 
 
@@ -37,20 +37,17 @@ Pre-release orders helps us determine how many books to print and bring these pr
 You can shop in person at 312 Main Ave, Truth or Conseqeunces NM 87901
 
 
-## Inspiration
-
-We have been inspired by many other small publishers found all over the world. Here is a non exhuastive and ever expanding list of places to find magical editions. 
-
-## what is a book?
-
-we've thought long and hard about just what a book is through the process of starting up this press and have come up with the following list of things which make a book a book. 
-
-- page numbers
-- entropy
-
-books exist to be touched and therefore they experience decay thoughout their life - but this decay is better to be though of as
-
-- portability
 
 
- 
+
+## Full Catalog 
+
+- [a.m.p. no. 1](/nonlinear-memories): Nonlinear Memories
+- [a.m.p. no. 2](/torc-no75): TorC no.75 (November 1st, 2025)
+- [a.m.p. no. 3](/hiraeth): Hiraeth (October 2025)
+- [a.m.p. no. 4](women-of-consequences): Women of Consequences
+- [a.m.p. no. 5](/olin-erotic-drawings) | Olin: Erotic Drawings
+- [a.m.p. no. 6](/mud-mountain) | Mud Mountain
+- [a.m.p. no. 7](/) | Working Title
+- [a.m.p. no. 8](/symbology-and-characterizations) | Symbology & Characterizations
+

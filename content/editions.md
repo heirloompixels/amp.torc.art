@@ -26,7 +26,7 @@ The emotional understanding of a place in the universe.
 
 A poem about the moment in life when you turn from a child to an adult. 
 
-<p> <a href="/Hiraeth">Learn more about Hiraeth</a> </p>
+<p> <a href="/hiraeth">Learn more about Hiraeth</a> </p>
 
 <a target="_blank" href="https://shop.torc.art/collections/agile-meteor-press">Order Hiraeth</a>
 
@@ -44,8 +44,6 @@ A poem about the moment in life when you turn from a child to an adult.
 A collection of erotic male drawings undertaken in the fall of 2012 by artist Olin West.  
 
 <p> <a href="/olin-erotic-drawings">Learn more about Olin: Erotic Drawings</a> </p>
-
-<a target="_blank" href="https://shop.torc.art/collections/agile-meteor-press">Order Olin: Erotic Drawings</a>
 
 
 
