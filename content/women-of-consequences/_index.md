@@ -71,9 +71,11 @@ Join us to celebrate the release of this book on November 7th at Truth or Conseq
 
 ### Documents and Announcements
 
-- [Press Release October 1st, 2025](press-release-oct-1-25)
-- [Open Party Invitaiton (November 7th, 2025)](opening-party.pdf)
+- [Press Release](woc-press-release.pdf)
 
+<!-- 
+- [Open Party Invitaiton (November 7th, 2025)](opening-party.pdf)
+-->
 
 
 

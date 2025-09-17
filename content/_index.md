@@ -3,9 +3,9 @@
 
 ## Desert Town. Plenty of Water. 
 
-A small press at an oasis. Hyper local focused publishing stories of time and place. We craft small beautiful books of unique stories for nomads out there on a rock way out there between those big loving arms of the Milk Way.
+A small press at an oasis. Hyper local focused publishing records of time spanned and place evolving. We craft small beautiful books of unique stories for nomads out there on a rock way out there between those big loving arms of the Milk Way.
 
-Each Being's unique experiences and emotions define collectively the fabric of a place. A story cowritten in the atmosphere and soil of some small bit of planet earth. Hyper local existence transmitted around the world, durably in book form. Agile Meteor Press is an experiemnt into understanding this medium.  
+Each Being's unique experiences and emotions define collectively the fabric of a place. A history cowritten in the atmosphere and soil of some small bit of planet earth. Hyper local existence transmitted around the world, durably in book form. Agile Meteor Press is an experiemnt into understanding this medium.  
 
 ### Fall 2025 Releases 
 
