@@ -23,10 +23,10 @@ Our personal experiences and emotions define the fabric of a place and we are de
 
 ## Fall 2025 Releases 
 
-- [a.m.p. no. 2](/torc-no75): TorC no.75 (November 1st, 2025)
-- [a.m.p. no. 3](/hiraeth): Hiraeth (October 2025)
-- [a.m.p. no. 4](women-of-consequences): Women of Consequences
-- [a.m.p. no. 8](/symbology-and-characterizations) | Symbology & Characterizations
+- [a.m.p. no. 2](/torc-no75) : TorC no.75 (November 1st, 2025)
+- [a.m.p. no. 3](/hiraeth) : Hiraeth (October 2025)
+- [a.m.p. no. 4](women-of-consequences) : Women of Consequences
+- [a.m.p. no. 8](/symbology-and-characterizations) : Symbology & Characterizations
 
 
 
@@ -42,12 +42,12 @@ You can shop in person at 312 Main Ave, Truth or Conseqeunces NM 87901
 
 ## Full Catalog 
 
-- [a.m.p. no. 1](/nonlinear-memories): Nonlinear Memories
-- [a.m.p. no. 2](/torc-no75): TorC no.75 (November 1st, 2025)
-- [a.m.p. no. 3](/hiraeth): Hiraeth (October 2025)
-- [a.m.p. no. 4](women-of-consequences): Women of Consequences
-- [a.m.p. no. 5](/olin-erotic-drawings) | Olin: Erotic Drawings
-- [a.m.p. no. 6](/mud-mountain) | Mud Mountain
-- [a.m.p. no. 7](/) | Working Title
-- [a.m.p. no. 8](/symbology-and-characterizations) | Symbology & Characterizations
+- [a.m.p. no. 1](/nonlinear-memories) : Nonlinear Memories
+- [a.m.p. no. 2](/torc-no75) : TorC no.75 (November 1st, 2025)
+- [a.m.p. no. 3](/hiraeth) : Hiraeth (October 2025)
+- [a.m.p. no. 4](women-of-consequences) : Women of Consequences
+- [a.m.p. no. 5](/olin-erotic-drawings) : Olin: Erotic Drawings
+- [a.m.p. no. 6](/mud-mountain) : Mud Mountain
+- [a.m.p. no. 7](/) : Working Title
+- [a.m.p. no. 8](/symbology-and-characterizations) : Symbology & Characterizations
 
