@@ -18,24 +18,24 @@ Collecting memories inspiried by a place, but not necessarily of a place. Inspir
 
 The emotional understanding of a place in the universe.
 
-<p> <a href="/torc-no75">Full Description of TorC no.75</a> </p>
-
+<p> 
+<a href="/torc-no75">Full Description of TorC no.75</a></br> 
 <a target="_blank" href="https://shop.torc.art/collections/agile-meteor-press">Order TorC no.75</a>
+</p>
 
 ## A.M.P. #3: Hiraeth
 
 A poem about the moment in life when you turn from a child to an adult. 
 
-<p> <a href="/hiraeth">Learn more about Hiraeth</a> </p>
-
-<a target="_blank" href="https://shop.torc.art/collections/agile-meteor-press">Order Hiraeth</a>
+<p> 
+<a href="/hiraeth">Learn more about Hiraeth</a></br><a target="_blank" href="https://shop.torc.art/collections/agile-meteor-press">Order Hiraeth</a>
+</p>
 
 ## A.M.P #4: Women of Consequences
 
-<p> <a href="/women-of-consequences">Learn more about Women of Consequences</a> </p>
-
+<p> <a href="/women-of-consequences">Learn more about Women of Consequences</a> </br>
 <a target="_blank" href="https://shop.torc.art/collections/agile-meteor-press">Order Women of Consequences</a>
-
+</p>
 
 
 
@@ -65,9 +65,9 @@ Softcover printed edition of 100
 
 ## A.M.P #8 | symbology & characterization
 
-<p> <a href="/symbology-and-characterization">Learn more about Symbolody & Characterization</a> </p>
-
+<p> <a href="/symbology-and-characterization">Learn more about Symbolody & Characterization</a> </br>
 <a target="_blank" href="https://shop.torc.art/collections/agile-meteor-press">Order Symbology & Characterization</a>
+</p>
 
 
 Permutations of the printed form, reduced and reused plates each one unique and yet floating through the world with siblings. You find solace in the quantity and variation of reality. Where will this take us? Where will we end up? 
