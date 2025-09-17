@@ -23,6 +23,21 @@ The imagery floats from a world adjacent to our reality and our minds reality. A
 softcover
 4 x 9 inches.<br/> 
 176 pages.
+
+
+
+![Symbology & Characterizations Image 1](s-and-c-1.jpeg)
+![Symbology & Characterizations Image 1](s-and-c-2.jpeg)
+![Symbology & Characterizations Image 1](s-and-c-3.jpeg)
+![Symbology & Characterizations Image 1](s-and-c-4.jpeg)
+![Symbology & Characterizations Image 1](s-and-c-5.jpeg)
   
+## Press Kit
+
+### Images
+
+- [Symbology & Characterizations Cover](s-and-c-cover.jpeg)
+- [Symbology & Characterizations Title Page](s-and-c-title-page.jpeg)
+- [Symbology & Characterizations Image 1](s-and-c-1.jpeg)
 
 
