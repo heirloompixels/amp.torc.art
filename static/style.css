@@ -21,9 +21,10 @@ code, pre, tt, kbd, samp { overflow-wrap: break-word; word-wrap: break-word; whi
 
 h1 { font-family: 'EB Garamond', serif; line-height: 1em; font-optical-sizing:auto; font-style: normal; font-weight: 700; font-size: 4.07em; }
 
-h2 { margin-top: 150px; font-family: 'Jost', 'Inter', sans-serif; font-optical-sizing: auto; font-style:normal; font-weight: 400; font-size: 1.54em; }
+h2 { margin-top: 150px; font-family: 'Jost', 'Inter', sans-serif; font-optical-sizing: auto; font-style:normal; font-weight: 800; font-size: 1.54em; }
 
 h3 { font-family: 'nnixitalic'; font-weight: normal; font-size: 1.16em; }
+h3 { font-family: 'nnixitalic'; font-weight: normal; font-size: 1.54em; }
 emph { font-family: 'nnixbook'; font-weight: normal; font-size: 1.16em; }
 b, strong { font-family: 'nnixbold'; font-weight: normal; font-size: inherit; }
 footer { max-width: 80ch; padding: 2ch; margin: auto; font-family: 'EB Garamond'; }
@@ -38,7 +39,7 @@ img.radius { border-radius: var(--border-radius); max-width: 100%; height: auto;
 .smallsplash { border-radius: var(--border-radius); display: block; margin: 1rem 0; width: clamp(50%, 80%, 300px); }
 figure { margin: 0 0 1em; }
 
-ul { margin-left: 1em; padding: 0; list-style: none; }
+ul { margin-left: 1em; padding: 0; list-style: none; font-size: 1.2em; }
 ul.plus li::before { content: "+"; padding-right: 4px; }
 ul.ing li::before { content: none; padding-right: 0; }
 li ul { margin-left: 2em; }
@@ -51,7 +52,7 @@ th { font-family: 'nnixbold'; font-weight: normal; background-color: var(--secon
 .event { padding: 20px; margin-left: 30px; margin-top: 0px; }
 
 
-p {margin: 1em auto;   width: clamp(70%, 80%, 300px); font-size:1.2em;}
-h1,h2,h3,li {text-align: center;}
+p,ul {margin: 1em auto;   width: clamp(70%, 80%, 300px); font-size:1.2em;}
+h1,h2,h3 {text-align: center;}
 
 

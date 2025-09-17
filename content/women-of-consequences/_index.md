@@ -2,7 +2,9 @@
 +++
 
 
-# A.M.P #4: <br/>Women of Consequences: Word Comrades
+# A.M.P #4: <br/><br/> Women of Consequences: <br/> Word Comrades
+
+A collection of works from 19 women writers in Truth or Consequences, New Mexico who have been meeting weekly for years. 
 
 214 pages, 4.375 x 7.125 inches</br> 
 ISBN: 978-1-969143-00-7</br>
@@ -12,14 +14,13 @@ ISBN: 978-1-969143-00-7</br>
 ![A red softcover uncoated paper cover of a book foil stamped in gold: Women of Consequences](woc-front-cover.jpeg "Women of Consequences Cover")
 
 
-A collection of works from 19 women writers in Truth or Consequences, New Mexico who have been meeting weekly for years. About this group is written: 
-
 >“The women in the group write fiction, memoir, travelogue, reflection, poem, prayer, rant, manifesto, explanation, jewel-like description and word collage. We write what we please. I could write nonsense and it would be well received. We can do anything in the protected space of our mutual creation.  
 >This collection -- inspired and curated by Jessica Logreira -- is a taste of our work. It is the result of a beautiful Truth or Consequences community, one of many that this special place and these special women spawn.”
 
 A perfect description written by Victoria Boynton in the preface to the book.  
 
-The 19 authors in this book are: 
+
+## Word Comarades
 
 - Stephanie Townsend Allala
 - RJ Blanch Almquist
@@ -41,6 +42,8 @@ The 19 authors in this book are:
 - Feral Willcox
 - Alice Wyatt
 
+![Women of Consequences Image 1](woc-1.jpg)
+![Women of Consequences Image 1](woc-2.jpg)
 
 >"There are unintended consequences - is there an unintended consequence? Can I accidentally become important? I can’t see why I couldn’t experience the consequences of my own consequence. 
 
@@ -48,10 +51,15 @@ The 19 authors in this book are:
 
 >What if I must face the consequences of my own consequence?"
 
-![Women of Consequences Image 1](woc-1.jpg)
-![Women of Consequences Image 1](woc-2.jpg)
 ![Women of Consequences Image 1](woc-3.jpg)
 ![Women of Consequences Image 1](woc-4.jpg)
+
+## Opening Party
+
+Join us to celebrate the release of this book on November 7th at Truth or Consequences Contemporary - 312 Main Ave, TorC NM. 
+
+
+
 ![Women of Consequences Image 1](woc-5.jpg)
 ![Women of Consequences Image 1](woc-5.jpg)
 
@@ -60,12 +68,18 @@ The 19 authors in this book are:
 
 ## Press Kit
 
-### Releases
+### Documents and Announcements
+
+- [Press Release October 1st, 2025](press-release-oct-1-25)
+- [Open Party Invitaiton (November 7th, 2025)](opening-party.pdf)
+
+
+
 
 ### Images
 
-These images are full size images ready to use for promotional and editorial purposes for this book. 
+We provide these full size images ready to use for promotional and editorial purposes for this book. 
 
 - [Women of Consequences Cover](woc-front-cover.jpeg)
-- [Women of Consequences Image 1](woc-1.jpeg)
+- [Women of Consequences Image no. 1](woc-1.jpg)
 
