@@ -2,7 +2,29 @@
 +++
 
 
-## A.M.P. #2: TorC no.75 <br>Edition of 200
+# A.M.P. #2: <br/>TorC no.75 
+
+
+by: Jeannie Ortiz & Kyle Parker Cunningham<br/> 
+196 pages, 6 x 8 inches<br/>
+ISBN: 978-1-969143-04-5<br/>
+Edition of 200<br/>
+
+
+![A yellow uncoated cardstock soft cover book with foil stamped title: TorC no.75 as well as blind debossing of the same title](torc75-cover.webp "TorC no.75 Cover")
+
+>From dawn to the center of night.
+
+>75 years renamed.
+
+>A book requiring no other explanation just like this desert oasis town which defies all expectations.
+
+
+The persona of our town changed 75 years ago this year when Hot Springs, New Mexico became Truth or Consequences, New Mexico. We took a long look at our time in this oasis village quilted a day together our of 15 years of days lived with camera in hand. TorC NM is quit and empty and full of power lines.
+
+
+![TorC no.75](torc75-1.webp "TorC no.75 Book")
+
 
 The emotional understanding of a place in the universe.
 
@@ -20,175 +42,11 @@ This publication itself exists annually - this innagural issue number 75 on occa
 
 This publication itself exists annually - this innagural issue number 75 on occasion of this diamond jubilee of our lastest name. Each year we will share different vignettes of a shared history, current, lived or imagined. 
 
- 
 
-<div id='product-component-1750802271765'></div>
-<script type="text/javascript">
-/*<![CDATA[*/
-(function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-  if (window.ShopifyBuy) {
-    if (window.ShopifyBuy.UI) {
-      ShopifyBuyInit();
-    } else {
-      loadScript();
-    }
-  } else {
-    loadScript();
-  }
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'shop.torc.art',
-      storefrontAccessToken: '26daf3c50a3c519acf8af64a65e58217',
-    });
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: '9214229250279',
-        node: document.getElementById('product-component-1750802271765'),
-        moneyFormat: '%24%7B%7Bamount%7D%7D',
-        options: {
-  "product": {
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "calc(25% - 20px)",
-          "margin-left": "20px",
-          "margin-bottom": "50px"
-        }
-      },
-      "button": {
-        "font-family": "Gill Sans, sans-serif",
-        "font-size": "17px",
-        "padding-top": "16.5px",
-        "padding-bottom": "16.5px",
-        ":hover": {
-          "background-color": "#6c6c6c"
-        },
-        "background-color": "#787878",
-        ":focus": {
-          "background-color": "#6c6c6c"
-        },
-        "border-radius": "0px"
-      },
-      "quantityInput": {
-        "font-size": "17px",
-        "padding-top": "16.5px",
-        "padding-bottom": "16.5px"
-      }
-    },
-    "contents": {
-      "img": false,
-      "title": false,
-      "price": false
-    },
-    "text": {
-      "button": "pre-order"
-    }
-  },
-  "productSet": {
-    "styles": {
-      "products": {
-        "@media (min-width: 601px)": {
-          "margin-left": "-20px"
-        }
-      }
-    }
-  },
-  "modalProduct": {
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "button": false,
-      "buttonWithQuantity": true
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
-        }
-      },
-      "button": {
-        "font-family": "Gill Sans, sans-serif",
-        "font-size": "17px",
-        "padding-top": "16.5px",
-        "padding-bottom": "16.5px",
-        ":hover": {
-          "background-color": "#6c6c6c"
-        },
-        "background-color": "#787878",
-        ":focus": {
-          "background-color": "#6c6c6c"
-        },
-        "border-radius": "0px"
-      },
-      "quantityInput": {
-        "font-size": "17px",
-        "padding-top": "16.5px",
-        "padding-bottom": "16.5px"
-      }
-    },
-    "text": {
-      "button": "Pre-Order"
-    }
-  },
-  "option": {},
-  "cart": {
-    "styles": {
-      "button": {
-        "font-family": "Gill Sans, sans-serif",
-        "font-size": "17px",
-        "padding-top": "16.5px",
-        "padding-bottom": "16.5px",
-        ":hover": {
-          "background-color": "#6c6c6c"
-        },
-        "background-color": "#787878",
-        ":focus": {
-          "background-color": "#6c6c6c"
-        },
-        "border-radius": "0px"
-      }
-    },
-    "text": {
-      "total": "Subtotal",
-      "button": "Checkout"
-    },
-    "popup": false
-  },
-  "toggle": {
-    "styles": {
-      "toggle": {
-        "font-family": "Gill Sans, sans-serif",
-        "background-color": "#787878",
-        ":hover": {
-          "background-color": "#6c6c6c"
-        },
-        ":focus": {
-          "background-color": "#6c6c6c"
-        }
-      },
-      "count": {
-        "font-size": "17px"
-      }
-    }
-  }
-},
-      });
-    });
-  }
-})();
-/*]]>*/
-</script>
+## Press Kit
 
+### Releases
 
+### Images
 
-
+[TorC no.75 Cover](torc75-cover.webp)

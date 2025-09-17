@@ -8,6 +8,7 @@ A collection of works from 19 women writers in Truth or Consequences, New Mexico
 
 214 pages, 4.375 x 7.125 inches</br> 
 ISBN: 978-1-969143-00-7</br>
+Edition of 300</br>
 
 [Purchase Women of Consequences](https://shop.torc.art/agile-meteor-press)
 
