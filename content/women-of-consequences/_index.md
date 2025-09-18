@@ -21,7 +21,7 @@ Edition of 300</br>
 A perfect description written by Victoria Boynton in the preface to the book.  
 
 
-## Word Comarades
+## Word Comrades
 
 - Stephanie Townsend Allala
 - RJ Blanch Almquist
