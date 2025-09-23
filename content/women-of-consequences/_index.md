@@ -4,7 +4,8 @@
 
 # A.M.P #4: <br/><br/> Women of Consequences: <br/> Word Comrades
 
-A collection of works from 19 women writers in Truth or Consequences, New Mexico who have been meeting weekly for years. 
+
+A New Anthology of Creative Writing by nineteen beautifully untamed women from Truth or Consequences, New Mexico who for years conspire in harmony with each other during their weekly sacred rendezvous to produce bold, unapologetically thought-provoking personal writing.&nbsp;
 
 214 pages, 4.375 x 7.125 inches</br> 
 ISBN: 978-1-969143-00-7</br>
