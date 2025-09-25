@@ -12,7 +12,7 @@ Each Being's unique experiences and emotions define collectively the fabric of a
 - [a.m.p. no. 2](/torc-no75) : TorC no.75 (November 1st, 2025)
 - [a.m.p. no. 3](/hiraeth) : Hiraeth (October 2025)
 - [a.m.p. no. 4](women-of-consequences) : Women of Consequences (November 14th, 2025)
-- [a.m.p. no. 8](/symbology-and-characterizations) : Symbology & Characterizations
+- [a.m.p. no. 8](/symbology-and-characterizations) : Symbology & Characterizations (October 11th, 2025)
 
 
 
