@@ -5,7 +5,7 @@
 # A.M.P #4: <br/><br/> Women of Consequences: <br/> Word Comrades
 
 
-A New Anthology of Creative Writing by nineteen beautifully untamed women from Truth or Consequences, New Mexico who for years conspire in harmony with each other during their weekly sacred rendezvous to produce bold, unapologetically thought-provoking personal writing.&nbsp;
+A New Anthology of Creative Writing by nineteen beautifully untamed women from Truth or Consequences, New Mexico who for years conspire in harmony with each other during their weekly sacred rendezvous to produce bold, unapologetically thought-provoking personal writing.
 
 214 pages, 4.375 x 7.125 inches</br> 
 ISBN: 978-1-969143-00-7</br>
@@ -34,7 +34,7 @@ A perfect description written by Victoria Boynton in the preface to the book.  
 - Kari Conley
 - Yadi Flannery
 - Kathleen Kemsley
-- Jessica Logreira
+- [Jessica Logreira](https://instagram.com/jessicalogreira)
 - Misha Martin
 - Bonita Nielsen
 - Colleen Palmer
@@ -58,7 +58,7 @@ A perfect description written by Victoria Boynton in the preface to the book.  
 
 ## Opening Party
 
-Join us to celebrate the release of this book on November 7th at Truth or Consequences Contemporary - 312 Main Ave, TorC NM. 
+Join us to celebrate the release of this book 6pm-8pm on November 14th at Truth or Consequences Contemporary - 312 Main Ave, TorC NM. After party at Truth or Consequences Brewery - 8pm - 10pm.  
 
 
 
@@ -75,7 +75,7 @@ Join us to celebrate the release of this book on November 7th at Truth or Conseq
 - [Press Release](woc-press-release.pdf)
 
 <!-- 
-- [Open Party Invitaiton (November 7th, 2025)](opening-party.pdf)
+- [Open Party Invitaiton (November 14th, 2025)](opening-party.pdf)
 -->
 
 
