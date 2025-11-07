@@ -6,9 +6,6 @@
 
 Our initial flurry of releases sample the flavor of what is to come from our press. These editions span genres and meanings for what books can be - they also fully embody the idea of Truth or Consequences, NM. 
 
-
-Preorders of our publications. The innagural batch of books is heavily currated to represent the diversity and range of voices in Truth or Consequences, New Mexico. 
-
 ## a.m.p. #1: Nonlinear Memories
 
 Collecting memories inspiried by a place, but not necessarily of a place. Inspirations and attributions, thanks and misgivings.   

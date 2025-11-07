@@ -10,6 +10,8 @@ Edition of 100.<br/>
 ISBN: 978-1-969143-02-1
 
 
+[Purchase Symbology & Characterizations](https://shop.torc.art/agile-meteor-press)
+
 ![The cover of book - sea-green uncoated cardstock with the title - symbolody & characterizations - foil stamped in gold](s-and-c-cover.jpeg "Cover")
 
 We are all telling stories to our own minds which enable us to continue the life long story we are individually curating into the collective cacophony. Symbology, repeated, iterated, drifting in time and space, eventually reinterpreted. Characterizations, a short hand to professed understanding, revised realities, recommended availability, role playing and misunderstandings, innovations. In here we find assembly theory; building a life out of the blocks we are able to get our hands upon. 
