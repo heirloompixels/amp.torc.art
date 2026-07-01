@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agile Meteor Press — Prototype 3: Newspaper Broadsheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #f2f2f2; --ink: #1a1a1a; --rule: #1a1a1a; --accent: #00008B; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); }
+  body { font-family: 'EB Garamond', serif; font-size: 18px; }
+  a { color: inherit; }
+
+  .paper { max-width: 1000px; margin: 0 auto; padding: 1.5rem 1.5rem 5rem; }
+
+  .top-line { display: flex; justify-content: space-between; font-family: 'Inter', sans-serif; font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; border-bottom: 1px solid var(--rule); padding-bottom: 0.5rem; }
+
+  .masthead { text-align: center; padding: 2rem 0 1rem; border-bottom: 4px double var(--rule); }
+  .masthead img.logo { width: 70px; height: auto; margin-bottom: 0.5rem; }
+  .masthead h1 { font-size: clamp(2.8rem, 7vw, 5rem); margin: 0; letter-spacing: -0.01em; font-weight: 400; }
+  .masthead .subhead { font-style: italic; font-size: 1rem; margin-top: 0.4rem; color: #333; }
+
+  nav.section-nav { display: flex; justify-content: center; gap: 2rem; padding: 0.75rem 0; border-bottom: 1px solid var(--rule); font-family: 'Inter', sans-serif; font-size: 0.8rem; letter-spacing: 0.05em; text-transform: uppercase; }
+  nav.section-nav a { text-decoration: none; }
+  nav.section-nav a:hover { text-decoration: underline; color: var(--accent); }
+
+  .lede-block { padding: 2.5rem 0; border-bottom: 1px solid var(--rule); }
+  .lede-block .kicker { font-family: 'Inter', sans-serif; font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+  .lede-block h2 { font-size: 2rem; font-weight: 700; margin: 0.4rem 0 1rem; }
+  .columns { columns: 2; column-gap: 2.5rem; }
+  .columns p:first-child::first-letter { float: left; font-size: 3.4rem; line-height: 0.8; padding: 0.05em 0.08em 0 0; font-weight: 700; }
+  .columns p { margin: 0 0 1em; text-align: justify; }
+
+  .editions-section { padding: 2.5rem 0; }
+  .editions-section > .kicker { font-family: 'Inter', sans-serif; font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent); font-weight: 600; margin-bottom: 1rem; display: block;}
+  .listing { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem 2.5rem; }
+  .entry { display: grid; grid-template-columns: 90px 1fr; gap: 1rem; padding-bottom: 1.5rem; border-bottom: 1px solid #ccc; }
+  .entry img { width: 90px; height: auto; border: 1px solid var(--rule); }
+  .entry .byline { font-family: 'Inter', sans-serif; font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: #666; }
+  .entry .headline { font-size: 1.25rem; font-weight: 700; line-height: 1.2; margin: 0.2rem 0; }
+  .entry .dek { font-size: 0.95rem; color: #333; }
+
+  footer { border-top: 4px double var(--rule); margin-top: 2rem; padding-top: 1.5rem; text-align: center; font-family: 'Inter', sans-serif; font-size: 0.85rem; color: #333; }
+  footer a { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="paper">
+
+  <div class="top-line">
+    <span>Vol. I — No. 8</span>
+    <span>Truth or Consequences, New Mexico</span>
+    <span>Est. 2025</span>
+  </div>
+
+  <div class="masthead">
+    <img class="logo" src="../static/logo-meteor-torc.svg" alt="Agile Meteor Press logo">
+    <h1>Agile Meteor Press</h1>
+    <div class="subhead">Art in the Oasis — Dispatches from the Rio Grande Rift</div>
+  </div>
+
+  <nav class="section-nav">
+    <a href="#">Home</a><a href="#">Editions</a><a href="#">Events</a><a href="#">Buy Our Books</a>
+  </nav>
+
+  <div class="lede-block">
+    <div class="kicker">From the Editors</div>
+    <h2>Desert Town. Plenty of Water.</h2>
+    <div class="columns">
+      <p>A small press at an oasis. Hyper-local publishing — records of time spanned and place evolving. We craft small, beautiful books of unique stories for nomads out there on a rock, way out there between the big loving arms of the Milky Way.</p>
+      <p>Each being's unique experiences and emotions define, collectively, the fabric of a place. A history co-written in the atmosphere and soil of some small bit of planet Earth. Hyper-local existence transmitted around the world, durably, in book form.</p>
+      <p>An agile meteor adapts to the inevitability of demise: planetary impact. For but a moment it ignites our minds, a dance through the atmosphere sprinkling magic into the mind of all eyes glimpsing this magnificent end.</p>
+    </div>
+  </div>
+
+  <div class="editions-section">
+    <span class="kicker">Fall 2025 Releases</span>
+    <div class="listing">
+      <div class="entry">
+        <img src="../static/covers/torc-no75.png" alt="TorC no.75 cover">
+        <div>
+          <div class="byline">a.m.p. no. 2 — Nov 1, 2025</div>
+          <div class="headline">TorC no. 75</div>
+          <div class="dek">196 pages, 6 × 8 in. Edition of 200.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img src="../static/covers/HIRAETH.png" alt="Hiraeth cover">
+        <div>
+          <div class="byline">a.m.p. no. 3 — Oct 2025</div>
+          <div class="headline">Hiraeth</div>
+          <div class="dek">A poem about the moment in life when a child becomes an adult.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img src="../static/covers/women-of-consequences.png" alt="Women of Consequences cover">
+        <div>
+          <div class="byline">a.m.p. no. 4 — Nov 14, 2025</div>
+          <div class="headline">Women of Consequences</div>
+          <div class="dek">214 pages. An anthology by nineteen women of Truth or Consequences.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img src="../static/covers/symbology-and-characterization-cover.jpg" alt="Symbology & Characterizations cover">
+        <div>
+          <div class="byline">a.m.p. no. 8 — Oct 11, 2025</div>
+          <div class="headline">Symbology &amp; Characterizations</div>
+          <div class="dek">176 pages, 4 × 9 in. Edition of 100.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Agile Meteor Press is a project of <a href="https://torc.art">Truth or Consequences Contemporary</a> — 312 Main Ave, Truth or Consequences, NM.</p>
+    <p><a href="https://instagram.com/torc.art">Instagram</a> &amp; <a href="https://facebook.com/torc.art">Facebook</a></p>
+  </footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agile Meteor Press — Prototype 4: Bookshop Catalog</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #f2f2f2; --panel: #ffffff; --ink: #1a1a1a; --border: #d8d8d5; --accent: #00008B; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); }
+  body { font-family: 'Inter', sans-serif; }
+  a { color: inherit; text-decoration: none; }
+
+  header { position: sticky; top: 0; background: var(--bg); z-index: 10; display: flex; align-items: center; justify-content: space-between; padding: 1rem 2rem; border-bottom: 1px solid var(--border); }
+  header .brand { display: flex; align-items: center; gap: 0.6rem; font-family: 'EB Garamond', serif; font-size: 1.2rem; font-weight: 600; }
+  header .brand img { width: 34px; height: auto; }
+  header nav a { margin-left: 1.75rem; font-size: 0.85rem; font-weight: 500; }
+  header nav a:hover { color: var(--accent); }
+  header nav a.cta { background: var(--ink); color: #fff; padding: 0.5rem 1rem; border-radius: 999px; }
+  header nav a.cta:hover { background: var(--accent); color: #fff; }
+
+  .hero { max-width: 1100px; margin: 0 auto; padding: 3.5rem 2rem 2.5rem; display: grid; grid-template-columns: 1.2fr 1fr; gap: 3rem; align-items: center; }
+  .hero h1 { font-family: 'EB Garamond', serif; font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1.1; margin: 0 0 1rem; }
+  .hero p { font-size: 1.05rem; line-height: 1.6; color: #333; max-width: 52ch; }
+  .hero .stat-row { display: flex; gap: 2rem; margin-top: 1.5rem; font-family: 'EB Garamond', serif; }
+  .hero .stat-row div strong { display: block; font-size: 1.6rem; }
+  .hero .stat-row div span { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: #666; }
+  .hero-photo img { width: 100%; height: auto; border-radius: 12px; display: block; }
+
+  .catalog { max-width: 1100px; margin: 0 auto; padding: 2rem 2rem 5rem; }
+  .catalog-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1.5rem; }
+  .catalog-head h2 { font-family: 'EB Garamond', serif; font-size: 1.6rem; margin: 0; }
+  .catalog-head .filter { font-size: 0.85rem; color: #666; }
+
+  .shelf { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 1.5rem; }
+  .book-card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; transition: box-shadow 0.15s ease, transform 0.15s ease; }
+  .book-card:hover { box-shadow: 0 12px 24px -12px rgba(0,0,0,0.2); transform: translateY(-2px); }
+  .book-card .cover { aspect-ratio: 2 / 3; overflow: hidden; background: #eee; }
+  .book-card .cover img { width: 100%; height: 100%; object-fit: cover; }
+  .book-card .info { padding: 1rem 1.1rem 1.25rem; flex: 1; display: flex; flex-direction: column; }
+  .book-card .no { font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+  .book-card .title { font-family: 'EB Garamond', serif; font-size: 1.2rem; font-weight: 600; margin: 0.25rem 0; }
+  .book-card .meta { font-size: 0.8rem; color: #666; margin-bottom: 0.75rem; }
+  .book-card .buy { margin-top: auto; font-size: 0.8rem; font-weight: 600; border-top: 1px solid var(--border); padding-top: 0.6rem; }
+  .book-card .buy:hover { color: var(--accent); }
+
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 2.5rem 2rem 3.5rem; font-size: 0.85rem; color: #444; }
+  footer a { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand"><img src="../static/logo-meteor-torc.svg" alt="Agile Meteor Press logo"> Agile Meteor Press</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Editions</a>
+    <a href="#">Events</a>
+    <a class="cta" href="#">Buy Our Books</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div>
+    <h1>Small, beautiful books from an oasis in the desert.</h1>
+    <p>Hyper-local publishing — records of time spanned and place evolving. Each edition is conceived as the founding of the next: one book per season, born of the Rio Grande rift.</p>
+    <div class="stat-row">
+      <div><strong>8</strong><span>Editions</span></div>
+      <div><strong>1</strong><span>Season per Release</span></div>
+      <div><strong>NM</strong><span>Truth or Consequences</span></div>
+    </div>
+  </div>
+  <div class="hero-photo">
+    <img src="../static/img/hardbound-prototype-books-on-pedestals-1500px.jpeg" alt="Hardbound prototype books on pedestals">
+  </div>
+</div>
+
+<div class="catalog">
+  <div class="catalog-head">
+    <h2>Fall 2025 Releases</h2>
+    <span class="filter">Full catalog: 8 titles</span>
+  </div>
+  <div class="shelf">
+    <div class="book-card">
+      <div class="cover"><img src="../static/covers/torc-no75.png" alt="TorC no.75 cover"></div>
+      <div class="info">
+        <div class="no">a.m.p. no. 2</div>
+        <div class="title">TorC no. 75</div>
+        <div class="meta">Nov 1, 2025 · 196 pp · Ed. of 200</div>
+        <a class="buy" href="https://shop.torc.art/agile-meteor-press">Purchase &rarr;</a>
+      </div>
+    </div>
+    <div class="book-card">
+      <div class="cover"><img src="../static/covers/HIRAETH.png" alt="Hiraeth cover"></div>
+      <div class="info">
+        <div class="no">a.m.p. no. 3</div>
+        <div class="title">Hiraeth</div>
+        <div class="meta">Oct 2025</div>
+        <a class="buy" href="https://shop.torc.art/agile-meteor-press">Purchase &rarr;</a>
+      </div>
+    </div>
+    <div class="book-card">
+      <div class="cover"><img src="../static/covers/women-of-consequences.png" alt="Women of Consequences cover"></div>
+      <div class="info">
+        <div class="no">a.m.p. no. 4</div>
+        <div class="title">Women of Consequences</div>
+        <div class="meta">Nov 14, 2025 · 214 pp · Ed. of 300</div>
+        <a class="buy" href="https://shop.torc.art/agile-meteor-press">Purchase &rarr;</a>
+      </div>
+    </div>
+    <div class="book-card">
+      <div class="cover"><img src="../static/covers/symbology-and-characterization-cover.jpg" alt="Symbology & Characterizations cover"></div>
+      <div class="info">
+        <div class="no">a.m.p. no. 8</div>
+        <div class="title">Symbology &amp; Characterizations</div>
+        <div class="meta">Oct 11, 2025 · 176 pp · Ed. of 100</div>
+        <a class="buy" href="https://shop.torc.art/agile-meteor-press">Purchase &rarr;</a>
+      </div>
+    </div>
+    <div class="book-card">
+      <div class="cover"><img src="../static/covers/olin-erotic-drawings-cover.jpg" alt="Olin: Erotic Drawings cover"></div>
+      <div class="info">
+        <div class="no">a.m.p. no. 5</div>
+        <div class="title">Olin: Erotic Drawings</div>
+        <div class="meta">Drawings from fall 2012</div>
+        <a class="buy" href="https://shop.torc.art/agile-meteor-press">Purchase &rarr;</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>Agile Meteor Press is a project of <a href="https://torc.art">Truth or Consequences Contemporary</a> — 312 Main Ave, Truth or Consequences, NM.</p>
+  <p><a href="https://instagram.com/torc.art">Instagram</a> &amp; <a href="https://facebook.com/torc.art">Facebook</a></p>
+</footer>
+
+</body>
+</html>

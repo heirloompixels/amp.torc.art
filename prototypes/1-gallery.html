@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agile Meteor Press — Prototype 1: Minimal Literary Gallery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<style>
+  @font-face { font-family: 'ampbook'; src: url("/fonts/nnixbook.woff2") format("woff2"); }
+  @font-face { font-family: 'ampitalic'; src: url("/fonts/nnixitalic.woff2") format("woff2"); }
+  @font-face { font-family: 'ampbold'; src: url("/fonts/nnixbold.woff2") format("woff2"); }
+
+  :root {
+    --bg: #f2f2f2;
+    --bg-panel: #e8e8e6;
+    --ink: #1a1a1a;
+    --rule: #cfcfcc;
+    --accent: #00008B;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); }
+  body { font-family: 'EB Garamond', serif; font-size: 19px; line-height: 1.65; }
+
+  a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+  a:hover { color: var(--accent); }
+
+  header { padding: 3rem 1.5rem 2rem; text-align: center; }
+  header img.logo { width: 96px; height: auto; display: block; margin: 0 auto 1.5rem; }
+  nav { font-family: 'Inter', sans-serif; font-weight: 300; font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; }
+  nav a { margin: 0 0.9rem; text-decoration: none; }
+  nav a:hover { text-decoration: underline; }
+
+  main { max-width: 68ch; margin: 0 auto; padding: 2rem 1.5rem 6rem; }
+
+  h1 { font-weight: 400; font-style: italic; font-size: 2.6rem; text-align: center; line-height: 1.2; margin: 3rem 0 2.5rem; }
+  p.lede { font-size: 1.25rem; text-align: center; color: #444; margin-bottom: 4rem; }
+
+  h2.section-title { font-family: 'Inter', sans-serif; font-weight: 300; font-size: 0.8rem; letter-spacing: 0.25em; text-transform: uppercase; text-align: center; color: #777; margin: 5rem 0 3rem; }
+  h2.section-title::before, h2.section-title::after { content: ""; display: block; width: 40px; height: 1px; background: var(--rule); margin: 0 auto 1rem; }
+
+  .gallery-wall { display: flex; flex-direction: column; gap: 6rem; }
+  .plate { text-align: center; }
+  .plate img { max-height: 480px; width: auto; max-width: 100%; box-shadow: 0 20px 40px -20px rgba(0,0,0,0.25); }
+  .plate .caption { margin-top: 1.5rem; }
+  .plate .no { font-family: 'Inter', sans-serif; font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: #888; }
+  .plate .title { font-size: 1.6rem; font-style: italic; margin: 0.3rem 0; }
+  .plate .meta { font-family: 'Inter', sans-serif; font-weight: 300; font-size: 0.9rem; color: #555; }
+
+  blockquote { font-style: italic; font-size: 1.4rem; text-align: center; margin: 4rem auto; max-width: 40ch; color: #333; }
+
+  footer { text-align: center; padding: 4rem 1.5rem 5rem; border-top: 1px solid var(--rule); font-family: 'Inter', sans-serif; font-weight: 300; font-size: 0.9rem; color: #555; }
+  footer a { text-decoration: underline; }
+  footer .social { margin-top: 1rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <img class="logo" src="../static/logo-meteor-torc.svg" alt="Agile Meteor Press logo">
+  <nav>
+    <a href="#">Home</a> · <a href="#">Editions</a> · <a href="#">Events</a> · <a href="#">Buy Our Books</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Desert Town. Plenty of Water.</h1>
+  <p class="lede">A small press at an oasis. Hyper-local publishing — records of time spanned and place evolving. We craft small, beautiful books of unique stories for nomads out there on a rock, way out there between the big loving arms of the Milky Way.</p>
+
+  <blockquote>“Each edition is conceived as the founding of the next.”</blockquote>
+
+  <h2 class="section-title">Fall 2025 Releases</h2>
+
+  <div class="gallery-wall">
+    <div class="plate">
+      <img src="../static/covers/torc-no75.png" alt="TorC no.75 cover">
+      <div class="caption">
+        <div class="no">a.m.p. no. 2</div>
+        <div class="title">TorC no. 75</div>
+        <div class="meta">November 1, 2025 — 196 pages, 6 × 8 in.</div>
+      </div>
+    </div>
+
+    <div class="plate">
+      <img src="../static/covers/HIRAETH.png" alt="Hiraeth cover">
+      <div class="caption">
+        <div class="no">a.m.p. no. 3</div>
+        <div class="title">Hiraeth</div>
+        <div class="meta">October 2025</div>
+      </div>
+    </div>
+
+    <div class="plate">
+      <img src="../static/covers/women-of-consequences.png" alt="Women of Consequences cover">
+      <div class="caption">
+        <div class="no">a.m.p. no. 4</div>
+        <div class="title">Women of Consequences: Word Comrades</div>
+        <div class="meta">November 14, 2025 — 214 pages, 4.375 × 7.125 in.</div>
+      </div>
+    </div>
+
+    <div class="plate">
+      <img src="../static/covers/symbology-and-characterization-cover.jpg" alt="Symbology & Characterizations cover">
+      <div class="caption">
+        <div class="no">a.m.p. no. 8</div>
+        <div class="title">Symbology &amp; Characterizations</div>
+        <div class="meta">October 11, 2025 — 176 pages, 4 × 9 in.</div>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="section-title">The Press</h2>
+  <p>An agile meteor adapts to the inevitability of demise: planetary impact. For but a moment it ignites our minds — a dance through the atmosphere sprinkling magic into the mind of all eyes glimpsing this magnificent end, realized after unimaginable time floating aimlessly in empty space. Matter in search of gravity.</p>
+  <p>Agile Meteor Press collects those stories written out here on the edge of America's deserts, espousing the truths found at the fringes as we eke out an existence against unlikely desert odds.</p>
+</main>
+
+<footer>
+  <p>Agile Meteor Press is a project of <a href="https://torc.art">Truth or Consequences Contemporary</a>.<br>Visit us at 312 Main Ave, Truth or Consequences, New Mexico.</p>
+  <p class="social"><a href="https://instagram.com/torc.art">Instagram</a> &amp; <a href="https://facebook.com/torc.art">Facebook</a></p>
+</footer>
+
+</body>
+</html>
