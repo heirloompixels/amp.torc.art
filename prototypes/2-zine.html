@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agile Meteor Press — Prototype 2: Bold Editorial Zine</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<style>
+  @font-face { font-family: 'ampbold'; src: url("/fonts/nnixbold.woff2") format("woff2"); }
+
+  :root {
+    --bg: #f2f2f2;
+    --ink: #0a0a0a;
+    --accent: #00008B;
+    --line: #0a0a0a;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); }
+  body { font-family: 'Inter', sans-serif; }
+
+  a { color: inherit; }
+
+  .masthead { display: flex; align-items: center; justify-content: space-between; padding: 1.2rem 1.5rem; border-bottom: 4px solid var(--line); }
+  .masthead .brand { display: flex; align-items: center; gap: 0.75rem; }
+  .masthead img.logo { width: 44px; height: auto; }
+  .masthead .brand-name { font-weight: 900; letter-spacing: -0.02em; font-size: 1.1rem; text-transform: uppercase; }
+  .masthead nav a { margin-left: 1.5rem; text-decoration: none; font-weight: 600; font-size: 0.85rem; letter-spacing: 0.03em; text-transform: uppercase; border-bottom: 2px solid transparent; }
+  .masthead nav a:hover { border-bottom-color: var(--accent); color: var(--accent); }
+
+  .hero { padding: 4rem 1.5rem 3rem; max-width: 1100px; margin: 0 auto; }
+  .hero h1 { font-family: 'EB Garamond', serif; font-weight: 800; font-size: clamp(2.8rem, 8vw, 6rem); line-height: 0.95; margin: 0 0 1.5rem; text-transform: uppercase; letter-spacing: -0.01em; }
+  .hero p { font-size: 1.3rem; max-width: 60ch; line-height: 1.5; font-weight: 400; }
+  .hero .tag { display: inline-block; background: var(--accent); color: #fff; font-weight: 700; font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.35rem 0.75rem; margin-bottom: 1.5rem; }
+
+  .strip { border-top: 4px solid var(--line); border-bottom: 4px solid var(--line); padding: 1rem 1.5rem; display: flex; overflow-x: auto; gap: 2rem; font-family: 'EB Garamond', serif; font-style: italic; font-size: 1.1rem; }
+  .strip span { white-space: nowrap; }
+
+  .issues { max-width: 1100px; margin: 0 auto; padding: 4rem 1.5rem; }
+  .issues h2 { font-weight: 900; text-transform: uppercase; font-size: 1rem; letter-spacing: 0.15em; margin-bottom: 2rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 2.5rem; }
+  .card { position: relative; }
+  .card .frame { border: 3px solid var(--line); padding: 0.6rem; background: #fff; transform: rotate(-1deg); transition: transform 0.15s ease; }
+  .card:nth-child(even) .frame { transform: rotate(1deg); }
+  .card:hover .frame { transform: rotate(0deg) scale(1.02); }
+  .card img { display: block; width: 100%; height: auto; }
+  .card .no-badge { position: absolute; top: -0.75rem; left: -0.75rem; background: var(--accent); color: #fff; font-weight: 800; font-size: 0.75rem; padding: 0.35rem 0.6rem; transform: rotate(-4deg); }
+  .card .title { font-family: 'EB Garamond', serif; font-weight: 700; font-size: 1.3rem; margin-top: 1rem; }
+  .card .meta { font-size: 0.85rem; color: #444; }
+
+  .manifesto { background: var(--ink); color: var(--bg); padding: 5rem 1.5rem; }
+  .manifesto-inner { max-width: 70ch; margin: 0 auto; font-family: 'EB Garamond', serif; font-size: 1.4rem; line-height: 1.6; }
+  .manifesto-inner strong { color: #ffd54a; font-weight: 700; }
+
+  footer { padding: 3rem 1.5rem 4rem; text-align: center; font-size: 0.9rem; }
+  footer a { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <div class="brand">
+    <img class="logo" src="../static/logo-meteor-torc.svg" alt="Agile Meteor Press logo">
+    <div class="brand-name">Agile Meteor Press</div>
+  </div>
+  <nav>
+    <a href="#">Home</a><a href="#">Editions</a><a href="#">Events</a><a href="#">Buy</a>
+  </nav>
+</div>
+
+<div class="hero">
+  <span class="tag">Truth or Consequences, NM</span>
+  <h1>Art in the Oasis.</h1>
+  <p>A small press at an oasis. Hyper-local publishing — records of time spanned and place evolving. We craft small, beautiful books of unique stories for nomads out there on a rock, way out there between the big loving arms of the Milky Way.</p>
+</div>
+
+<div class="strip">
+  <span>we exist.</span><span>we are important.</span><span>libraries shall now enshrine our sagas.</span><span>there is truth within our consequences.</span>
+</div>
+
+<div class="issues">
+  <h2>Fall 2025 Releases</h2>
+  <div class="grid">
+    <div class="card">
+      <span class="no-badge">No. 2</span>
+      <div class="frame"><img src="../static/covers/torc-no75.png" alt="TorC no.75 cover"></div>
+      <div class="title">TorC no. 75</div>
+      <div class="meta">Nov 1, 2025</div>
+    </div>
+    <div class="card">
+      <span class="no-badge">No. 3</span>
+      <div class="frame"><img src="../static/covers/HIRAETH.png" alt="Hiraeth cover"></div>
+      <div class="title">Hiraeth</div>
+      <div class="meta">Oct 2025</div>
+    </div>
+    <div class="card">
+      <span class="no-badge">No. 4</span>
+      <div class="frame"><img src="../static/covers/women-of-consequences.png" alt="Women of Consequences cover"></div>
+      <div class="title">Women of Consequences</div>
+      <div class="meta">Nov 14, 2025</div>
+    </div>
+    <div class="card">
+      <span class="no-badge">No. 8</span>
+      <div class="frame"><img src="../static/covers/symbology-and-characterization-cover.jpg" alt="Symbology & Characterizations cover"></div>
+      <div class="title">Symbology &amp; Characterizations</div>
+      <div class="meta">Oct 11, 2025</div>
+    </div>
+  </div>
+</div>
+
+<div class="manifesto">
+  <div class="manifesto-inner">
+    <p>An agile meteor adapts to the inevitability of demise: planetary impact. For but a moment it ignites our minds — a dance through the atmosphere sprinkling <strong>magic</strong> into the mind of all eyes glimpsing this magnificent end.</p>
+    <p>Matter in search of gravity.</p>
+  </div>
+</div>
+
+<footer>
+  <p>Agile Meteor Press is a project of <a href="https://torc.art">Truth or Consequences Contemporary</a> — 312 Main Ave, Truth or Consequences, NM.</p>
+  <p><a href="https://instagram.com/torc.art">Instagram</a> &amp; <a href="https://facebook.com/torc.art">Facebook</a></p>
+</footer>
+
+</body>
+</html>

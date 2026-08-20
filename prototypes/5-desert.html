@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agile Meteor Press — Prototype 5: Desert Oasis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #f5f1e8; --panel: #ece4d3; --ink: #2b2620; --rust: #b5502e; --line: #cbb98f; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); }
+  body { font-family: 'EB Garamond', serif; font-size: 19px; line-height: 1.65; }
+  a { color: var(--rust); text-decoration: none; border-bottom: 1px solid transparent; }
+  a:hover { border-bottom-color: var(--rust); }
+
+  .contour-line { height: 1px; background: repeating-linear-gradient(90deg, var(--line) 0 8px, transparent 8px 14px); }
+
+  header { display: flex; align-items: center; justify-content: space-between; padding: 1.5rem 2rem; }
+  header .brand { display: flex; align-items: center; gap: 0.75rem; }
+  header .brand img { width: 46px; height: auto; }
+  header .brand span { font-family: 'Inter', sans-serif; font-weight: 600; letter-spacing: 0.04em; }
+  header nav { font-family: 'Inter', sans-serif; font-size: 0.85rem; }
+  header nav a { margin-left: 1.5rem; color: var(--ink); }
+  header nav a:hover { color: var(--rust); border-bottom-color: var(--rust); }
+
+  .hero { position: relative; padding: 3rem 2rem 4rem; text-align: center; overflow: hidden; }
+  .hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(245,241,232,0) 40%, var(--bg) 100%), url("../static/box_prints.jpg"); background-size: cover; background-position: center 30%; opacity: 0.35; z-index: 0; }
+  .hero-inner { position: relative; z-index: 1; max-width: 60ch; margin: 0 auto; }
+  .hero .eyebrow { font-family: 'Inter', sans-serif; letter-spacing: 0.2em; text-transform: uppercase; font-size: 0.75rem; color: var(--rust); font-weight: 600; }
+  .hero h1 { font-size: clamp(2.4rem, 6vw, 4rem); font-weight: 700; margin: 1rem 0; }
+  .hero p { font-size: 1.15rem; color: #3a342b; }
+
+  .rift-strip { display: flex; justify-content: center; gap: 3rem; padding: 1.5rem; font-family: 'Inter', sans-serif; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: #6b6151; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+
+  .releases { max-width: 1000px; margin: 0 auto; padding: 4rem 2rem; }
+  .releases h2 { text-align: center; font-weight: 600; font-size: 1.7rem; margin-bottom: 0.5rem; }
+  .releases .sub { text-align: center; font-family: 'Inter', sans-serif; font-size: 0.85rem; color: #6b6151; margin-bottom: 3rem; }
+
+  .oasis-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; }
+  .stone { background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 1rem; text-align: center; }
+  .stone img { width: 100%; height: auto; border-radius: 2px; margin-bottom: 1rem; box-shadow: 0 8px 20px -10px rgba(43,38,32,0.4); }
+  .stone .no { font-family: 'Inter', sans-serif; font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--rust); }
+  .stone .title { font-size: 1.25rem; margin: 0.3rem 0; }
+  .stone .meta { font-family: 'Inter', sans-serif; font-size: 0.8rem; color: #6b6151; }
+
+  .manifesto { background: var(--panel); padding: 4rem 2rem; }
+  .manifesto-inner { max-width: 62ch; margin: 0 auto; text-align: center; }
+  .manifesto-inner .mark { color: var(--rust); font-size: 2rem; display: block; margin-bottom: 1rem; }
+
+  footer { text-align: center; padding: 3rem 2rem 4rem; font-family: 'Inter', sans-serif; font-size: 0.85rem; color: #6b6151; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <img src="../static/logo-meteor-torc.svg" alt="Agile Meteor Press logo">
+    <span>AGILE METEOR PRESS</span>
+  </div>
+  <nav>
+    <a href="#">Home</a><a href="#">Editions</a><a href="#">Events</a><a href="#">Buy Our Books</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Truth or Consequences, New Mexico</div>
+    <h1>Desert Town. Plenty of Water.</h1>
+    <p>A small press at an oasis. Hyper-local publishing — records of time spanned and place evolving, for nomads out there on a rock between the loving arms of the Milky Way.</p>
+  </div>
+</div>
+
+<div class="rift-strip">
+  <span>Rio Grande Rift</span>
+  <span>Est. 2025</span>
+  <span>One Book per Season</span>
+</div>
+
+<div class="releases">
+  <h2>Fall 2025 Releases</h2>
+  <div class="sub">Four editions, born of the oasis</div>
+  <div class="oasis-grid">
+    <div class="stone">
+      <img src="../static/covers/torc-no75.png" alt="TorC no.75 cover">
+      <div class="no">a.m.p. no. 2</div>
+      <div class="title">TorC no. 75</div>
+      <div class="meta">November 1, 2025</div>
+    </div>
+    <div class="stone">
+      <img src="../static/covers/HIRAETH.png" alt="Hiraeth cover">
+      <div class="no">a.m.p. no. 3</div>
+      <div class="title">Hiraeth</div>
+      <div class="meta">October 2025</div>
+    </div>
+    <div class="stone">
+      <img src="../static/covers/women-of-consequences.png" alt="Women of Consequences cover">
+      <div class="no">a.m.p. no. 4</div>
+      <div class="title">Women of Consequences</div>
+      <div class="meta">November 14, 2025</div>
+    </div>
+    <div class="stone">
+      <img src="../static/covers/symbology-and-characterization-cover.jpg" alt="Symbology & Characterizations cover">
+      <div class="no">a.m.p. no. 8</div>
+      <div class="title">Symbology &amp; Characterizations</div>
+      <div class="meta">October 11, 2025</div>
+    </div>
+  </div>
+</div>
+
+<div class="manifesto">
+  <div class="manifesto-inner">
+    <span class="mark">✦</span>
+    <p>This rift, ancient and filled with the historical truth of fossils from all epochs — dinosaurs on the east bank, mega fauna to the west. Primordial waters supplementing earth's landmass with exoskeleton accumulations: limestone. A consequence of our collective existence enables tall tales, real or imagined.</p>
+  </div>
+</div>
+
+<footer>
+  <p>Agile Meteor Press is a project of <a href="https://torc.art">Truth or Consequences Contemporary</a> — 312 Main Ave, Truth or Consequences, NM.</p>
+  <p><a href="https://instagram.com/torc.art">Instagram</a> &amp; <a href="https://facebook.com/torc.art">Facebook</a></p>
+</footer>
+
+</body>
+</html>
