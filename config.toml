@@ -1,17 +1,13 @@
 base_url = "https://amp.torc.art"
 title = "Agile Meteor Press"
-description = "art in the oasis"
+description = "A small press at an oasis in Truth or Consequences, New Mexico: hyper local publishing, small beautiful books of unique stories."
 compile_sass = false
 minify_html = false
 default_language = "en"
 
-taxonomies = [
-	{ name = "recommender" },
-	{ name = "authorname" },
-	{ name = "pubyear" },
-	{ name = "rating" },
-	{ name = "readstate" }
-]
+# No taxonomies: the five that were declared here (recommender, authorname,
+# pubyear, rating, readstate) had no pages and no templates, so their list
+# pages sat in the sitemap answering 404 (audit, 2026-10-26).
 
 [slugify]
 paths = "on"
